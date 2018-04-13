@@ -2,6 +2,7 @@ var playlist = {
   'john prine': 'paradise'
 }
 
-function updatePlaylist(obj, key, value) {
-  return playlist.assign({}, obj, {[key]: value})
+function updatePlaylist(playlist, key, value) {
+  playlist.assign({}, playlist, {[key]: value})
+  return playlist
 }
