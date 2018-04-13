@@ -1,3 +1,3 @@
 var playlist = {
-  'john prine' = 'paradise'
+  'john prine': 'paradise'
 }
