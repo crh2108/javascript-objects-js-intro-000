@@ -3,6 +3,5 @@ var playlist = {
 }
 
 function updatePlaylist(playlist, key, value) {
-  playlist.assign({}, playlist, {[key]: value})
-  return playlist
+  playlist[key] = value
 }
