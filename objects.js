@@ -5,3 +5,7 @@ var playlist = {
 function updatePlaylist(playlist, key, value) {
   playlist[key] = value
 }
+
+function removeFromPlaylist(playlist, key, value) {
+  delete playlist.key;
+}
